@@ -1,0 +1,2 @@
+"o procedimento deve imprimir o número de meses em que a pessoa conseguirá fazer a sua retirada"
+é só imprimir quantos meses vai durar a graninha antes de o saque ser menor que o montante, não precisa imprimir cada mes kkkkk seu burro!!!!,  a propria recursão vai prever no final, afinal é o quanto vai sobrar e quantos meses poderão ser sacado

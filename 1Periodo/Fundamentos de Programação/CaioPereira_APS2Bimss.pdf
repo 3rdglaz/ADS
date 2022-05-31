@@ -1,0 +1,111 @@
+CURSO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 
+APS
+ATIVIDADES PRÁTICAS SUPERVISIONADAS
+
+ Disciplina: Fundamentos de Programação                                              
+Professor (a): Camillo de Lellis Falcão da Silva
+Turma:                               Ano/Semestre: 2021/2        ( ) 1º bim.   (x) 2º bim.
+*Realização individual. 
+
+Nome do aluno: 
+Caio Pereira
+
+Prezado(a) Aluno(a)!
+A proposta destas atividades é que você possa, ao longo do desenvolvimento dos conteúdos das disciplinas, responder aos questionamentos propostos de modo a ter, de maneira individual, reflexiva e registrada, o seu entendimento sobre determinadas informações relevantes no contexto da sua formação.  Desse modo, é importante que essas atividades sejam desenvolvidas ao longo dos bimestres e, caso surjam dúvidas na elaboração das respostas, os professores sejam solicitados a auxiliá-lo para que o conhecimento possa ser construído de maneira consistente. No caso da realização em duplas, aproveitem a oportunidade para refletirem juntos sobre os questionamentos e elaborem respostas que contemplem a reflexão conjunta.
+*Atente-se ao prazo para postagem das respostas e, considerando a natureza do trabalho, não há espaço para respostas idênticas e/ou retiradas da internet. 
+
+
+QUESTÃO 1:
+Assinale a alternativa que contém o código que imprime o vetor (v) em tela.
+a)	
+	Console.WriteLine(“{0} ”, v);
+
+b)	
+for (int i = 0; i < v.Length; i++)
+	v[i] = Convert.ToInt32(Console.ReadLine());
+c)	
+for (int i = 0; i > v.Length; i++)
+	Console.Write(“{0} ”, v[i]);
+d)	correta
+for (int i = 0; i < v.Length; i++)
+Console.Write(“{0} ”, v[i]);
+QUESTÃO 2:
+Veja o trecho de código abaixo e assinale a alternativa que indica quais valores estarão armazenados no vetor3.
+	int[] vetor1 = new int[] { 1, 2, 3 };
+	int[] vetor2 = new int[] { 2, 2, 4 };
+	int[] vetor3 = new int[3];
+          for (int i = 0; i < vetor3.Length; i++)
+		vetor3[i] = vetor1[i] + vetor2[i];
+
+a)	{ 1, 2, 3 }
+b)	{ 2, 2, 4 }
+c)	{ 3, 4, 7 }
+d)	{ 0, 0, 0 }
+QUESTÃO 3:
+Veja o trecho de código abaixo e assinale a alternativa que indica quais valores estarão armazenados no vetor3.
+int i;
+	int[] vetor1 = new int[] { 1, 2, 3 };
+	int[] vetor2 = new int[] { 2, 2, 4 };
+	int[] vetor3 = new int[6];
+for (i = 0; i < vetor1.Length; i++)
+		vetor3[i] = vetor1[i];
+for (i = 0; i < vetor2.Length; i++)
+		vetor3[vetor2.Length + i] = vetor2[i];
+
+a)	{ 1, 2, 3 }
+b)	{ 1, 2, 3, 2, 2, 4 }
+c)	{ 2, 2, 4, 1, 2, 3 }
+d)	{ 0, 0, 0, 0, 0, 0 }
+QUESTÃO 4:
+Veja o trecho de código abaixo e assinale a alternativa que indica qual a finalidade do mesmo.
+	static void X(double[] v)
+	{
+		for (int i = 0; i < v.Length; i++)
+		{
+			v[i] = Convert.ToDouble(Console.ReadLine());
+			if (v[i] < 0)
+				v[i] = v[i] * -1;
+		}
+	}
+
+a)	Multiplica todos os elementos de um vetor por -1.
+b)	Lê uma string informada pelo usuário e inverte as posições dos seus elementos, mas apenas dos elementos que possuem representação gráfica.
+c)	Lê um vetor de números reais e retira o sinal de negativo dos valores menores que zero informados pelo usuário.
+d)	Imprime os elementos de um vetor de números reais passados por parâmetro.
+QUESTÃO 5:
+Faça uma função que receba um vetor de números reais. A função deve atualizar o valor de cada elemento do vetor em acordo com as seguintes regras:
+a) Acrescente 15% aos valores maiores que 100 e menores que 300. (100>x<300* = 1.15)
+b) Acrescente 25% aos valores maiores ou iguais a 300 e menores que 500.(300=>x<500 = *1.25)
+c) Acrescente %5 aos valores não contemplados pelas regras acima.(else = *1.05)
+Ao término do processamento, a função deve retornar a soma dos elementos do vetor já considerando os acréscimos concedidos.
+
+static double Porcentagem(Double[] v)
+        {
+            double soma = 0;
+            // roda o loop pra pegar todos os indices do vetor
+            for (int i = 0; i < v.Length; i++)
+            {
+                // entre 100 e 300 = 15%
+                if (v[i] > 100 && v[i] < 300)
+                {
+                    v[i] *= 1.15;
+                    Console.WriteLine("{0}", v[i]);
+                }
+                // entre 300 e 500 = 25%
+                else if (v[i] >= 300 && v[i] < 500)
+                {
+                    v[i] *= 1.25;
+                    Console.WriteLine("{0}", v[i]);
+                }
+                // restante
+                else
+                {
+                    v[i] *= 1.05;
+                    Console.WriteLine("{0}", v[i]);
+                }
+                // soma dentro do loop os indices na var soma
+                soma += v[i];
+            }
+            //retorna soma
+            return soma;
+        }

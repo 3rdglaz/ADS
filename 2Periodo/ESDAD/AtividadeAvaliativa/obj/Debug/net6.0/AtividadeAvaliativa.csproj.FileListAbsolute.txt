@@ -1,0 +1,15 @@
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/bin/Debug/net6.0/AtividadeAvaliativa
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/bin/Debug/net6.0/AtividadeAvaliativa.deps.json
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/bin/Debug/net6.0/AtividadeAvaliativa.runtimeconfig.json
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/bin/Debug/net6.0/AtividadeAvaliativa.dll
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/bin/Debug/net6.0/ref/AtividadeAvaliativa.dll
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/bin/Debug/net6.0/AtividadeAvaliativa.pdb
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.csproj.AssemblyReference.cache
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.AssemblyInfoInputs.cache
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.AssemblyInfo.cs
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.csproj.CoreCompileInputs.cache
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.dll
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/ref/AtividadeAvaliativa.dll
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.pdb
+/run/media/caio/CAIOP/ads_2p/ESDAD/AtividadeAvaliativa/obj/Debug/net6.0/AtividadeAvaliativa.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pessoa
+comment1.params=
+comment1.target=Pessoa()
+comment2.params=
+comment2.target=java.lang.String\ consultaEndereco()
+comment3.params=
+comment3.target=java.lang.String\ consultaNome()
+numComments=4

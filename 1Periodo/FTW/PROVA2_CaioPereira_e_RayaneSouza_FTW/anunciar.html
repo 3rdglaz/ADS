@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Anunciar</title>
+  </head>
+  <body background="img/fundo.png">
+    <!--
+    A imagem de fundo da página está contida na pasta img nomeada por fundo.png;
+    O tipo de fonte deverá ser Agency FB, cor #E64C3C e tamanho 5;
+    A tabela deverá ter largura de 40% e estar alinhada ao centro;
+    
+    A primeira linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um label com o texto: Nome;
+    A segunda linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um input do tipo texto, largura de 80% e placeholder  com o texto: Digite seu nome...
+    A terceira linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um label com o texto: Email;
+    
+    A quarta linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um input do tipo email, largura de 80% e placeholder  com o texto: Digite seu e-mail...
+    A quinta linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um label com o texto: Telefone;
+    
+    A sexta linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um input do tipo tel, largura de 80% e placeholder  com o texto: Digite seu telefone...
+    A sétima linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um label com o texto: Dados do Imóvel:
+    
+    A oitava linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um textarea com 30 linhas, 82 colunas e placeholder  com o texto: Digite as características do imóvel...
+    A nona linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um label com o texto: Quer resposta por:
+    A décima linha deverá ter 3 colunas:
+
+    Primeira coluna – input do tipo radio, com name resp e um label escrito Telefone;
+    Segunda coluna – input do tipo radio, já selecionado, com name resp e um label escrito E-mail;
+    Terceira coluna – input do tipo radio, com name resp e um label escrito WhatsApp.
+    
+    A décima primeira linha deverá estar mesclada para ocupar as 3 colunas e deverá conter um botão do tipo submit com o texto Enviar. -->
+    
+
+
+
+    <font size="5" color="#E64C3C" face="Agency FB">
+      <table width="40%" align="center" border="0">
+        <form action="#" method="post">
+          <tr>
+            <td colspan="3">
+              <label for="inputnome">Nome</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input id="inputname" name="Nome" type="text" width="80%" placeholder="Digite seu nome..."/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <label for="inputemail">E-mail</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input id="inputemail" name="Email" type="email" width="80%" placeholder="Digite seu e-mail..."/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <label for="inputtelefone">Telefone</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input id="inputtelefone" name="Telefone" type="tel" width="80%" placeholder="Digite seu telefone..."/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <label for="textareaDadosImovel">Dados do Imóvel</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <textarea
+                name="textareaDadosImovel"
+                rows="30"
+                cols="80"
+                placeholder="Digite as características do imóvel..."
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <label for="inputresposta">Quer resposta por</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="tel" name="respTel" type="radio"/>
+              <label for="inputrespostatelefone">Telefone</label>
+            </td>
+            <td>
+              <input id="mail" name="respE-mail" type="radio"/>
+              <label for="inputrespostaemail">E-mail</label>
+            </td>
+            <td>
+              <input id="wpp" name="respWpp" type="radio"/>
+              <label for="inputrespostawhatsapp">WhatsApp</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <button name="enviar" type="submit">Enviar</button>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </font>
+  </body>
+</html>

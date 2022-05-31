@@ -1,0 +1,56 @@
+# Java com OO
+- OO
+    - um programa OO tem Baixo Acoplamento e Alta Coesão
+    - O main não deve conter calculos, eles devem ser feitos por outros.
+    o main deve conter apenas leitura e escrita
+
+- Java
+    -camelCase para variáveis, atributos e métodos;
+    -PascalCase para classes, enum e interfaces;
+    -SCREAMING_SNAKE_CASE para constantes.
+    
+
+```
+public class Pessoa{
+        public static void main(String[] args) {
+
+            String primeiroNome = "Maria";
+                int idade = 22;
+                double alturaAtual = 1.65;
+                final String MENSAGEM_PADRAO = "Olá";
+            }
+        }
+```
+
+1 - Definir Classe
+```
+public class nomeClasse{
+    //Código
+    int x;
+    String a;
+}
+```
+2 - Definir atributos
+```
+public nomeAtributo(){
+    //Variável
+    x = 1;
+    a = "string";
+}
+```    
+3 - Definir Métodos
+```
+public tipo(boolean/int) nome(){
+    //Cálculos
+    //return true se é alguma coisa
+        -function;
+        -procedure;
+}
+```
+
+
+
+STRING EM JAVA
+é uma Classe, portanto tem métodos para trabalhar com.
+String nome = "caio";
+nome.equals("caio")

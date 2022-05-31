@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Quadrado
+comment1.params=
+comment1.target=Quadrado()
+comment2.params=
+comment2.target=boolean\ ehQuadrado()
+comment3.params=
+comment3.target=boolean\ ladosIguais()
+comment4.params=
+comment4.target=boolean\ doisLadosVerticais()
+comment5.params=
+comment5.target=boolean\ doisLadosHorizontais()
+comment6.params=
+comment6.target=double\ perimetro()
+numComments=7

@@ -1,0 +1,15 @@
+- Dump completed on 2018-10-13 20:18:03
+/* 3 - Liste os nomes das instituições privadas com fins lucrativos.(675 linhas retornadas).*/
+SELECT nomeIES FROM  ies,categoria WHERE categoria.nomeCategoria = "Privada com fins lucrativos" AND categoria.codCategoria = ies.codCategoria;
+
+/* 4 - Recupere os nomes da IES e o conceitoFaixa das IES que participaram do enade de 2017 cuja modalidade de educação é a distância.(516 linhas retornadas)*/
+SELECT ies.nomeIES,resultado.conceitoFaixa FROM ies,modalidade,resultado WHERE modalidade.nomeModalidade = 'Educação a Distância' AND resultado.anoEnade = '2017' AND modalidade.codModalidade = resultado.codModalidade AND ies.codIES = resultado.codIES ;
+
+/* 5 - Recupere o nome das ies e das áreas que obtiveram conceitoFaixa 5 da área de 
+TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS no enade de 2017.(12 linhas retornadas)*/
+
+SELECT ies.nomeIES, area.nomeArea FROM ies, area, resultado WHERE area.codArea = resultado.codArea AND ies.codIES = resultado.codIES AND resultado.conceitoFaixa = 5 AND resultado.anoEnade = '2017' AND area.nomeArea = 'TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS' ;
+
+/* 6 - Recupere o nome da ies, o nome da área e conceitoFaixa do enade de 
+2017 das ies situadas no município de Juiz de Fora que obtiveram nota 5.(18 linhas retornadas)*/
+select ies.nomeIES, area.nomeArea, resultado.conceitoFaixa FROM WHERE resultado.anoEnade = '2017' AND area.codArea = resultado.codArea AND ies.codIES = resultado.codIES AND resultado.codMunicipio = municipio.codMunicipio and municipio.nomeMunicipio = 'Juiz de Fora';

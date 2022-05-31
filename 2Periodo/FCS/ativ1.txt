@@ -1,0 +1,21 @@
+Escreva em Binário ASCII:
+
+
+
+Seu Nome em MAIÚSCULO;
+
+
+Seu Nome em minúsculo;
+
+
+Seu Nome em Início de Frase 
+
+
+
+resposta:
+caio
+01100011011000010110100101101111
+CAIO
+01000011010000010100100101001111
+Caio
+01000011011000010110100101101111

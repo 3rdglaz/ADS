@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Compra
+comment1.params=
+comment1.target=Compra()
+comment2.params=pessoa\ produto
+comment2.target=void\ comprar(Pessoa,\ Produto)
+comment3.params=
+comment3.target=java.lang.String\ verificarCompra()
+numComments=4

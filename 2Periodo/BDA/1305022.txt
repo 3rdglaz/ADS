@@ -1,0 +1,52 @@
+achar soma dos slaario de todos funcionarios, o slario max, o min, e a média
+
+select sum(salario) as soma_salarial, max(salario) as salario_maximo, 
+min(salario) as salario_minimo, round(avg(salario),2) as media_salarial from funcionario;
+
+
+achar por GENERO soma dos slaario de todos funcionarios, o slario max, o min, e a média
+
+select sexo, count)_sum(salario) as soma_salarial, max(salario) as salario_maximo, 
+min(salario) as salario_minimo, round(avg(salario),2) as media_salarial from funcionario 
+group by sexo;
+
+
+
+traga nome do departamaneto, juntamento com numero de funcionarios, que trabalham em cada departamento.
+
+trazendo o nome do departamento e o nome do funcionario que trabalh nele
+
+
+select dnome, count(*) as quantidade_funcionarios from funcionario f inner_join departamento d on f.dnr=d.dnumer
+group by numero
+
+traga nome e sobrenome do funcionario e a quantidade de horas q ele trabalha
+
+select pnome, unome, horas
+from funcionario f inner join trabalha_em te on f.cpf = te.fcpf
+order by pnome asc;
+
+traga nome e sobrenome do funcionario e a quantidade de horas q ele trabalha. que trabalham mais de 30h
+
+select pnome, unome, sum(horas)
+from funcionario f inner join trabalha_em te on f.cpf = te.fcpf
+group by cpf
+having sum(horas)>30
+order by pnome asc;
+
+recuperar o nome d todos funcionarios que trabalhgam em mais de 1 projeto
+
+select pnome, unome, pnr
+from funcionario f inner join trabalha_em te on f.cpf=te.fcpf
+group by cpf
+having (*)>1
+order by cpf
+
+recuperar infos funcionario possui menor salario
+
+
+
+
+
+
+order by dnome asc;

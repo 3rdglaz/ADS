@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<HTML lang='PT-BR'>
+	<HEAD>
+		<META charset='UTF-8'>
+		<TITLE>Exercício Frames</TITLE>
+		<!-- O primeiro frame apontará para a página logo.html
+		O segundo frame apontará para a página menu.html
+		O terceiro frame apontará para a página sobrenos.html e carregará as outras páginas contidas no menu. -->
+		
+		<FRAMESET rows="30%,*"  frameborder=1>
+			<frameset cols= "15%,*">
+				<FRAME name='cabecalho' src='logo.html'scrolling='no'></FRAME>
+				<FRAME name='menu' src='menu.html' scrolling='no'></FRAME>
+			</frameset>
+			<FRAME name='conteudo' src='sobre.html'></FRAME>
+		</FRAMESET>
+	</HEAD>
+	<BODY>
+	</BODY>
+</HTML>

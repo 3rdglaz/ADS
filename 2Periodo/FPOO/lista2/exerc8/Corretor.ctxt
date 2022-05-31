@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Corretor
+comment1.params=
+comment1.target=Corretor()
+comment2.params=
+comment2.target=int\ venderImovel()
+comment3.params=
+comment3.target=double\ comissao()
+numComments=4

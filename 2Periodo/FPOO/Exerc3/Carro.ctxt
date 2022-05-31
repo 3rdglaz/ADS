@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Carro
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Carro\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Carro()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Carro\r\n
+comment10.params=
+comment10.target=double\ custoFinal()
+comment11.params=
+comment11.target=java.lang.String\ contem()
+comment2.params=ar
+comment2.target=void\ setAr(boolean)
+comment3.params=cambioAutomatico
+comment3.target=void\ setCambioAutomatico(boolean)
+comment4.params=alarme
+comment4.target=void\ setAlarme(boolean)
+comment5.params=pinturaEspecial
+comment5.target=void\ setPinturaEspecial(boolean)
+comment6.params=tetoSolar
+comment6.target=void\ setTetoSolar(boolean)
+comment7.params=multimidia
+comment7.target=void\ setMultimidia(boolean)
+comment8.params=umPonto0
+comment8.target=void\ setUmPonto0(boolean)
+comment9.params=importado
+comment9.target=void\ setImportado(boolean)
+numComments=12

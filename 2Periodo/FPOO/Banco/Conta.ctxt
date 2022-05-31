@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Conta
+comment1.params=numero
+comment1.target=Conta(int)
+comment1.text=\n\ Construtor\ para\ objetos\ da\ classe\ Conta\n
+comment10.params=saque
+comment10.target=void\ saque(double)
+comment11.params=deposito
+comment11.target=void\ deposito(double)
+comment2.params=
+comment2.target=int\ getNumero()
+comment3.params=
+comment3.target=double\ getSaldo()
+comment4.params=
+comment4.target=Banco\ getBanco()
+comment5.params=
+comment5.target=Cliente\ getCliente()
+comment6.params=numero
+comment6.target=void\ setNumero(int)
+comment7.params=saldo
+comment7.target=void\ setSaldo(double)
+comment8.params=banco
+comment8.target=void\ setBanco(Banco)
+comment9.params=cliente
+comment9.target=void\ setCliente(Cliente)
+numComments=12

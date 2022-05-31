@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: white;
+}
+.texto{
+    color: #b2b2b2;
+}
+.anuncio{
+    background-color: #111;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 6px;
+}
+.amarelo1{
+    color: #febe01;
+}
+
+.botao{
+    background-color: #febe01;
+    border-radius: 6px;
+    padding: 8px;
+    text-decoration: none;
+    margin: 8px;
+}

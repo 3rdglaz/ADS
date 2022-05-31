@@ -1,0 +1,65 @@
+vet [...,n]
+//varrer o vetor em busca da menor variavel
+for(i=0;i<= vet.Lenght;i++{
+aux = 0;
+if (vet[i] > aux)
+{
+	aux=vet[i]
+};
+}
+
+//ordenar empurrando, método bolha
+FOR ..
+//para parar antes vc decresce a o vet.Lengh, após cada iteração
+// onde, <reduzir = vet.Lenght -1>
+//	<reduzir -=;> 
+if (vet[i]>vet[i+1])// ou seria while(vet[i]>vet[i+1])
+{
+aux = vet[i+1]
+vet[i+1]=vet[i]
+vet[i]=aux
+}
+
+
+reduzir = vet.Lenght;
+while(vet[i]>vet[i+1])
+{
+aux = vet[i+1];
+vet[i+1]=vet[i];
+vet[i]=aux;
+reduzir --;// pode ser overkill pra reduzir o tempo de corrida 
+i++;
+}
+// exemplo do professor
+int Main Void
+var vet = new int[] {10,5,1,20,15};
+
+MetodoBolha(vet);
+
+Private static void MetodoBolha(int[] vet)
+var houveTroca=true;
+//melhoria
+
+var fim = vet.Length -1;
+int ultimaTroca;
+
+for (int i=0;i<vet.Length && fim;i++){
+	houveTroca = false;
+	/melhoria
+	ultimaTroca = 0;
+	for (int j=0;j < vet.Lenght -1 -i; j++)
+	{
+		if (vet[j]> vet[j+i])
+		{
+		ultimaTroca=j;
+		Troca(vet, j, j+1);
+		}
+	}
+	fim = ultimaTroca;
+
+private static void Troca(int[] vet, int i, int j)
+{
+	var aux=vet[i]
+	vet[i] = vet[j];
+	vet[j] = aux;
+}

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Empregado
+comment1.params=
+comment1.target=Empregado()
+comment2.params=nome
+comment2.target=void\ setNome(java.lang.String)
+comment3.params=sobrenome
+comment3.target=void\ setSobrenome(java.lang.String)
+comment4.params=cpf
+comment4.target=void\ setCPF(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getNome()
+comment6.params=
+comment6.target=java.lang.String\ getSobrenome()
+comment7.params=
+comment7.target=java.lang.String\ getCPF()
+comment8.params=
+comment8.target=double\ vencimento()
+numComments=9

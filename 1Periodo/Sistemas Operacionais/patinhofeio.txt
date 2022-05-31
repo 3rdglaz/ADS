@@ -1,0 +1,24 @@
+Apesar de não ser o primeiro computador no Brasil, foi o minicomputador a ser construído no país.
+
+Com sua modesta configuração:
+	- 4kb de Memória
+	- com uma frequência de 2 microsegundos
+Uma unidade de fita de papel, uma impressora, um terminal de vídeo e plotter.
+Escrito em assembly. Tivemos o Patinho Feio.
+
+E tudo começou, depois de feita uma engenharia reversa, com a produção nacional de periféricos para computadores da IBM,
+como plotters, osciloscópios e afins. 
+Essa produção inicialmente era má olhada pela própria IBM que depois apoiou a 
+iniciativa.
+
+
+
+
+
+http://www.invencoesbrasileiras.com.br/computador-patinho-feio/
+
+
+
+
+
+https://jornal.usp.br/universidade/voce-sabia-que-o-primeiro-computador-brasileiro-foi-criado-na-usp/

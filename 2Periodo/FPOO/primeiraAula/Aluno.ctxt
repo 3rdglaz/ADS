@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Aluno
+comment1.params=
+comment1.target=boolean\ Resultado()
+comment2.params=
+comment2.target=Aluno()
+comment3.params=vNome
+comment3.target=void\ setNome(java.lang.String)
+comment4.params=novaNota
+comment4.target=void\ setNota(int)
+comment5.params=novoNome
+comment5.target=void\ alteraNome(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ exibeNome()
+comment7.params=
+comment7.target=int\ exibeNota()
+numComments=8

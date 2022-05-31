@@ -1,0 +1,140 @@
+create database hospital;
+use hospital;
+create table paciente(
+cpf decimal(11),
+rg char(8),
+nome varchar(50),
+rua varchar(30),
+bairro varchar(30),
+cidade varchar(25),
+cep char(8),
+datanasc date
+);
+
+/*Adicione o atributo sexo na tabela paciente
+Altere o nome do atributo nome para nome_paciente
+Altere o tipo do atributo cpf para char(11)
+Elimine a coluna bairro*/
+alter table paciente add sexo char(1),
+                     change nome nome_paciente varchar(50),
+					 modify cpf char(11),
+					 drop bairro;
+/*O atributo RG deverá ser chave candidata*/
+                     
+alter table paciente add constraint ck_rg unique(rg);
+/*ou*/
+alter table paciente modify rg char(8) unique;
+/*ou*/
+alter table paciente change rg rg char(8) unique;
+
+desc paciente;
+
+/*O atributo nome_paciente não poderá receber o valor nulo
+O atributo CPF deverá ser a chave primária da tabela
+O atributo cidade deverá ter o valor padrão 'Juiz de Fora'*/
+alter table paciente modify nome_paciente varchar(50) not null,
+add constraint pk_paciente primary key(cpf),
+alter cidade set default 'Juiz de Fora';
+/*modify cidade varchar(25) default 'Juiz de Fora',
+change cidade cidade varchar(25) default 'Juiz de Fora'*/
+
+desc paciente;
+
+create table doenca(
+cid decimal(5) primary key,
+descricao varchar(80));
+
+create table especialidade(
+rqe decimal(6) primary key,
+especialidade varchar(50)
+);
+
+CREATE TABLE medico(
+		crm decimal(6) PRIMARY KEY,
+        cpf decimal (11) unique,
+        nome varchar(50),
+        rua VARCHAR(30),
+        bairro varchar(30),
+        cidade varchar(25),
+        cep char(8)
+
+);
+
+CREATE TABLE hospital(
+		cnpj decimal(13) PRIMARY KEY,
+        nome varchar(50),
+        rua VARCHAR(30),
+        bairro varchar(30),
+        cidade varchar(25),
+        cep char(8),
+        telefone varchar(15)
+);
+create table diagnostico(
+	cpf char(11),
+	crm decimal (6),
+	cid decimal (5),
+	datadiagnostic date,
+	constraint pk_diag primary key (cpf,crm,cid),
+	constraint fk_pac_diag foreign key(cpf) 
+		references paciente(cpf) on delete cascade on update cascade,	
+	constraint fk_med_diag foreign key(crm) 
+		references medico(crm) on delete cascade on update cascade,
+	constraint fk_doenca_diag foreign key(cid)
+		references doenca(cid) on delete cascade on update cascade
+        
+	);
+
+create table medico_especialidade(
+	crm decimal(6),
+	rqe decimal (6),
+	primary key(crm, rqe),
+	foreign key(crm) 
+		references medico(crm) on delete cascade on update cascade,
+	foreign key(rqe)
+		references especialidade(rqe) on delete cascade on update cascade
+	);
+
+create table medico_hospital(
+	cnpj decimal(13),
+    crm decimal(6),
+    datainicio date,
+    constraint pk_medhosp primary key (cnpj, crm),
+    constraint fk_medhosp_hosp foreign key (cnpj) references hospital(cnpj),
+    constraint fk_medhosp_med foreign key (crm) references medico(crm)
+    );
+
+
+/*                            cpf,          rg,         nome,                  rua,                 cidade,          cep,       data,  sexo*/    
+insert into paciente value
+			("12365478985","45628945","Carlinhos do Ubirajá","Marli mendes alves","juiz de fora",36502145,05/02/1995,'F'),
+			("12365455595","66628945","Carlinhos do Ubá","Ma'alves","juiz de fodara",36582145,"1990-02-05",'F'),
+			("85854569874","45632145","jandira da varanda","jao nogueira","ubirinha",36985214,"1500-05-06",'M');
+
+############################como atualizar um campo errado de uma linha especifíca,#######################
+########################### PS se não for primary key vai atualizar tudo que tiver a mesma info################################
+
+UPDATE paciente
+ set
+	cep = 88888888
+ where
+	cpf = 85854569874;
+
+########################################################
+
+insert into doenca value
+		(98725,"coceira doida no ouvido"),
+        (95164,"coceira doida no olho"),
+        (87542,"bidjiudja"),
+        (65421,"casemito esquece");
+
+desc especialidade;
+insert into especialidade values
+		(987654,"bidjiujologista"),
+        (951846,"coçador serio de olho"),
+        (984524,"coçador serio de ouvido"),
+        (987456,"se o cara n é bom eu sou maluco");
+
+######################################
+insert into diagnostico values (valores existentes em sequencia)
+curdate() = função para pegar data atual
+#################################

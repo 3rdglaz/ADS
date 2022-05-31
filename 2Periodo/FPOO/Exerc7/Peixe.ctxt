@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Peixe
+comment1.params=
+comment1.target=Peixe()
+comment2.params=peso\ marca
+comment2.target=Peixe(int,\ java.lang.String)
+comment3.params=peso
+comment3.target=double\ calculaExcesso(double)
+numComments=4

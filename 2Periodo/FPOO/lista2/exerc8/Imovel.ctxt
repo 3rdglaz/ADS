@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Imovel
+comment1.params=
+comment1.target=Imovel()
+comment2.params=y
+comment2.target=int\ sampleMethod(int)
+comment3.params=
+comment3.target=double\ getPreco()
+comment4.params=preco
+comment4.target=void\ setPreco(double)
+comment5.params=
+comment5.target=java.lang.String\ getEndereco()
+comment6.params=endereco
+comment6.target=void\ setEndereco(java.lang.String)
+numComments=7

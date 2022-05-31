@@ -1,0 +1,17 @@
+indexOf('abaxi') // vai voltar o index no qual o elemenot abacaxi se encontra no vetor.
+
+substring(IndexStart[,3]) // cospe o caracter primeira posição da string e a quarta posição
+
+charAt(0) // volta a primeira letra da string. já que 0 é o index
+
+getElementById ()// busca o elemento pelo ID pra poder fazer algo
+
+innerHTML() // vai trablhar com o que tá dentro do hmtl
+
+getElementsByClassName () // busca o elemtno pelo nome da classe
+
+createElement(p)// cria paragrado
+
+createTextNode("paragrafo novo")// coloca texto
+
+console.assert("HUM4N ERR!)  // escreve mensagem de erro

@@ -1,0 +1,59 @@
+static voi Main(sting[] args)
+{
+	Imprimir(5);
+	
+	Console.Write(" enter ");
+	Console.ReadKey();
+}
+
+private static void Imprimir(int max)
+{
+	//seta até 1 a condição de retorno
+	if (max = 0)
+		return;
+	// para aplicar a recursividade em ordem crescente, 
+	// já que a função só finaliza ao atingir o max = 0, ao fim da recursão
+	Imprimir(max - 1);
+	Console.WriteLine(max);
+
+	// em ordem crescente
+	Console.WriteLine(max);
+	Imrpimir(max-1);
+}
+
+
+AULA 07/03/2022
+Converter para recursivo
+##### ao chamar a rotina é necessário setar o i=0 como argumento, já que 
+## a primeira posição é 0, pode se encapsular, já setando a posição inicial como zero, onde chama apenas o VETOR
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // converta abaixo para recursivo
+            var vet = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //for (int i = 0; i< vet.Length; i++)
+            //{
+            //    if (vet[i] % 2 == 0) { Console.WriteLine(Math.Pow(vet[i], 2)); }
+                    
+            //}
+            // convertido
+            static void EhPar(int i,int[] vet)
+            {
+                // transforma o WHILE num IF
+                if (i < vet.Length && i%2==0){
+                    // transforma o IF em um IF aninhando                    
+                    if (i % 2 == 0)
+                    {
+                        Console.WriteLine(Math.Pow(vet[i], 2));
+                    }
+                    EhPar(i+1, vet);
+                }
+            }
+       }
+ 
+    }
+}

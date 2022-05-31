@@ -1,0 +1,54 @@
+class Aluno
+{
+	string nome;
+	int matricula;
+	DateTime dataNascimento;
+	
+	public string getNome(){return nome;}
+public void setNome(string novoNome){nome=novoNome;}
+public int getMatricula(){return matricula;}
+
+}
+class Turma
+{
+	public int getPeriodo()
+		{
+		return periodo
+		}
+	
+	public void setPeriodo(int novoPer)
+		{
+		periodo =novoPer;
+		}
+
+	public Alunos [] getAlunos()
+		{	
+		return alunos;
+		}
+
+	public void MatricularAluno(Aluno a)
+		{
+		if (numeroAlunos < 100){
+			alunos[numeroAlunos] =a;
+			numeroAlunos++;
+		}else{ 
+			LancarErro("O núm máx de alunos foi " +"alcançado!");
+		}
+
+	public int periodo;
+	public Aluno[] alunos = new Aluno[100];
+	// index de contagem usado em MatricularAluno
+	private int numeroAlunos= 0;
+	
+	// toda vez que for chamada roda em iteração no próximo index da array alunos[i]
+	public void MatricularAluno(Aluno a)
+	{
+		alunos[numeroAlunos] = a;
+		numeroAlunos++;
+	}
+}
+// como utilizar os setters
+Aluno a = new Aluno();
+a.setNome("joao")
+a.setMatricula(2022003);
+a.setDataNascimento(novo Data(1995, 1, 1));

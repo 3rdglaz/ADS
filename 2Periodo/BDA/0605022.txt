@@ -1,0 +1,30 @@
+questão 1 recupere os nome e o sobrenome dos intrutores e o codigo das turmas q ministram. ordene pelo nome do instruto
+
+select nome, sobrenome, idtumr
+from instrutor i inner join turma t on i.idinstrutor = t.instrutor_idinstrutor
+order by nome asc;
+
+questao 2 recupere dados dos instrutores que dão aula para mais de duas turmas
+
+select i.* 
+from instrutor i inner join turma t on i.idinstrutor = t.instrutor_idinstrutos
+group by i.idinstrutor
+having count(*)>2
+
+questao 3 recupera nomes d atividades com a quantidade de turmas que a praticam ordene pelo nome da atividade
+
+select a.nome as nome_atividade, count(*) as quantidade_turmas
+from atividade a inner join turma t on a.idatividade = t.atividade_idatividade
+group by a.idatividade
+order by a.nome;
+
+questao 4 recupera dados alunos não matriculados
+
+questãqo 8
+recupera altura media dos alunos que praticam volei
+
+select avg(altura)
+from aluno a inner join matricula m on a.nummatricula = m.aluno_matricula
+inner join turma t on m.turma_idturma = t.idturma inner joint ativbdade atbv
+on atv.adatividade = t.atividade_idatividade
+where atv.nome = 'Volei'

@@ -1,0 +1,38 @@
+Font-face
+font-family
+font-size
+===========
+importar fonte online:
+-meio que só olhar no googlefonts, escolher uma lá que como configurar e setar já tá lá.
+-Tem um peso, anotado ao lado dos estilos
+baixando a fonte
+-faz download
+-deixa o ttf no diretorio desejado
+-no css:
+	@font-face{ 
+		font-family:'Roboto'; 
+		src: url('caminho/do/diretorio/font.ttf');
+		}
+	// ai ce chama
+	p{
+		font-family:'Roboto';
+		font-size: 2rem;
+	}
+============
+color
+- o padrão lá de cores RGB...
+============
+letter-spacing
+-normal
+-lenght
+-initial
+============
+-direction: LeftToRigh/RightToLeft
+-
+=============
+line-height
+-normal
+-% altura em porcentagem
+-
+============
+text-align

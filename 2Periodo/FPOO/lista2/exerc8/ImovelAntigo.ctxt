@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ImovelAntigo
+comment1.params=
+comment1.target=ImovelAntigo()
+comment2.params=desconto
+comment2.target=double\ correcaoPreco(int)
+numComments=3

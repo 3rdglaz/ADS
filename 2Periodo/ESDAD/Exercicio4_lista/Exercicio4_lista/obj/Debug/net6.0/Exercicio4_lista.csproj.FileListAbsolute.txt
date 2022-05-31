@@ -1,0 +1,15 @@
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\bin\Debug\net6.0\Exercicio4_lista.exe
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\bin\Debug\net6.0\Exercicio4_lista.deps.json
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\bin\Debug\net6.0\Exercicio4_lista.runtimeconfig.json
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\bin\Debug\net6.0\Exercicio4_lista.dll
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\bin\Debug\net6.0\Exercicio4_lista.pdb
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.csproj.AssemblyReference.cache
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.AssemblyInfoInputs.cache
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.AssemblyInfo.cs
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.csproj.CoreCompileInputs.cache
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.dll
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\refint\Exercicio4_lista.dll
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.pdb
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\Exercicio4_lista.genruntimeconfig.cache
+E:\Documents\ADS_VIANNA\ads_2p\ESDAD\Exercicio4_lista\Exercicio4_lista\obj\Debug\net6.0\ref\Exercicio4_lista.dll

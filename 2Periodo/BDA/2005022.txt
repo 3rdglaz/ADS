@@ -1,0 +1,39 @@
+2) liste titulo do filme, nome dos clientes que locaram o mesmo filme por mais de uma vez. AGRUPAR por masi de uma coluna
+
+select titulo, nome_cliente //seleciona a titulo e nome_cliente
+from cliente c inner join locacao l on c.codigo_cliente = l.codigo_cliente // da tabela Cliente com Join em LOCACao, onde codigo_cliente é igual
+inner join filme f on l.codigo_filme = f.codigo_filme; //e da inner join no filme com codigo_filme
+group by f.codigo_filme, c.codigo_cliente; // agrupa por codigo_cliente e codigo filme
+having count(*)>1 //tendo contador mais de uma aparição
+
+
+3) liste dados clientes que locaram >1 filme mesmo dia, agrupa por mais de uma coluna
+
+select nome_cliente, l.codigo_filme, data_locaco
+from cliente c inner join locacao l on c.codigo_cliente = l.codigo_cliente
+group by c.codigo_cliente, l.data_locacao
+having(*)>1;
+
+4) liste dados dos atores que fizeram >2 filmes
+
+select a.nome_ator,a.sobrenome, fa.codigo_filme
+from ator a inner join filme_ator fa on a.codigo_ator = fa.codigo_ator
+group by a.cpf
+having count(*)>1
+
+5) liste qtd filmes de cada genero
+
+select g.nome_genero, count(*)
+from genero g inner join filme_genero fg on fg.codigo_genero = g.codigo_genero
+inner join filme f on fg.codigo_filme = f.codigo_filme
+group by g.codigo_genero
+
+6)LIste as datas e a quantidade de filmes locados em cada dia
+
+SELECT data_locacao, count(*)
+FROM locacao
+GROUP BY data_locacao
+
+7) liste preço medio de locação
+SELECT round(AVG(valor),2)
+FROM locacao

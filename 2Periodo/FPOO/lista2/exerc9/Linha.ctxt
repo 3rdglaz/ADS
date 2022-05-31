@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Linha
+comment1.params=ponto1\ ponto2
+comment1.target=Linha(Ponto,\ Ponto)
+comment2.params=
+comment2.target=java.lang.Boolean\ ehVertical()
+comment3.params=
+comment3.target=java.lang.Boolean\ ehHorizontal()
+comment4.params=
+comment4.target=double\ tamanho()
+numComments=5

@@ -1,0 +1,6 @@
+O github não possui instalação, ele é um serviço, e caso você não tenha uma conta, chegou a hora de criá-la, neste link. Para criar uma conta será necessário:
+
+Digitar seu nome de usuário;
+Digitar seu email;
+Criar uma senha;
+Clique em criar uma conta.

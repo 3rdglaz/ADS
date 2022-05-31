@@ -1,0 +1,41 @@
+dot net no console
+class Boleto()
+{
+	DateTime dataEmissao = new DateTime();
+	DateTime dataVencimento = new DateTime();	
+	DateTime dataPagamento = new DateTime();
+	private string linhaDigitavel;
+	private double valorDeFace;
+	private double valorPago;
+
+
+	public double ValoPago{get{return valorPago;}set{valorPago=value;}
+	public double ValorDeFace{get{return valorDeFace;}set{valorDeFace=value;}
+	public string LinhaDigitavel{get{return linhaDigitavel;}set{linhaDigitavel=value;}
+	public DateTime DataEmissao {get;set;}
+	public DateTime DataVencimento {get;set;}
+	public DateTime DataPagamento {get;set;}
+
+
+	public void Pagar(DateTime dataPago, double valorPago)
+		{
+			if(valorPago < valorDeFace)
+			throw new Exception("O valor pago é insuficiente.");
+
+			ValorPago = valorPago;
+			DataPagemento = dataPagto;	
+		}
+
+}
+
+class Fornecedor()
+{
+	private string nome;
+	private string email;
+
+	public string Nome{get{return nome;}set{nome=value;}
+	public string Email{get{return email;}set{email=value;}
+
+
+	public string Email{get;set;}
+}

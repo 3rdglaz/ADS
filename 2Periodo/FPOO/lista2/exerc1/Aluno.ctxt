@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Aluno
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Aluno\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Aluno()
+comment2.params=
+comment2.target=java.lang.Boolean\ getVotou()
+comment3.params=votou
+comment3.target=void\ setVotou(java.lang.Boolean)
+comment4.params=
+comment4.target=int\ getQtdVoto()
+comment5.params=qtdVoto
+comment5.target=void\ setQtdVoto(int)
+comment6.params=
+comment6.target=java.lang.String\ getNome()
+comment7.params=nome
+comment7.target=void\ setNome(java.lang.String)
+comment8.params=eleito\ votante
+comment8.target=void\ Votar(Aluno,\ Aluno)
+numComments=9

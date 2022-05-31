@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PrincipalEmpresa
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=empresa
+comment2.target=void\ listarFuncionarios(Empresa)
+comment3.params=
+comment3.target=void\ cadastroFuncionario()
+comment4.params=
+comment4.target=int\ menu()
+comment5.params=empresa
+comment5.target=void\ calculaSalario(Empresa)
+numComments=6

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<HTML lang='PT-BR'>
+	<HEAD>
+		<META charset='UTF-8'>
+		<TITLE>Menu</TITLE>
+	</HEAD>
+	<BODY>
+	<!-- menu.html: Deverá conter menus de acesso horizontais:
+	Detalhes:
+	A imagem do menu está contida na pasta img, nomeada por menu.png.
+
+	Faça o mapeamento da imagem no menu para as páginas correspondentes. 
+			Sobre nós  – sobrenos.html
+			Anunciar Imóveis – anunciar.html
+			Fale Conosco – faleconosco.html
+
+	As coordenadas para mapeamento são:
+			Sobre nós  – 1,1,375,64
+			Anunciar Imóveis – 379,1,753,64
+			Fale Conosco – 760,1,1132,64 -->
+
+		<IMG src='img/menu.png' usemap='#meuMenu' alt='imagem_do_menu'>
+		<MAP name='meuMenu'>
+			<AREA coords='1,1,375,64' href='sobre.html' target='conteudo' alt='pagina_sobre'></AREA>
+			<AREA coords='379,1,753,64' href='anunciar.html' target='conteudo' alt='pagina_evolucao'></AREA>
+			<AREA coords='760,1,1132,64' href='faleconosco.html' target='conteudo' alt='pagina_impactos'></AREA>
+			
+		</MAP>
+	</BODY>
+</HTML>

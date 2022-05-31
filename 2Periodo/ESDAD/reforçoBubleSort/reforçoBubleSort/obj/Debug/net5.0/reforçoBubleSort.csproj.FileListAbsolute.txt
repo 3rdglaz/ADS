@@ -1,0 +1,16 @@
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\bin\Debug\net5.0\reforçoBubleSort.exe
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\bin\Debug\net5.0\reforçoBubleSort.deps.json
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\bin\Debug\net5.0\reforçoBubleSort.runtimeconfig.json
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\bin\Debug\net5.0\reforçoBubleSort.runtimeconfig.dev.json
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\bin\Debug\net5.0\reforçoBubleSort.dll
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\bin\Debug\net5.0\ref\reforçoBubleSort.dll
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\bin\Debug\net5.0\reforçoBubleSort.pdb
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.csproj.AssemblyReference.cache
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.GeneratedMSBuildEditorConfig.editorconfig
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.AssemblyInfoInputs.cache
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.AssemblyInfo.cs
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.csproj.CoreCompileInputs.cache
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.dll
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\ref\reforçoBubleSort.dll
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.pdb
+E:\ESDAD\reforçoBubleSort\reforçoBubleSort\obj\Debug\net5.0\reforçoBubleSort.genruntimeconfig.cache

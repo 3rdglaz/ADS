@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=pontoA\ pontoB
+comment1.target=double\ distanciaEntrePontos(Ponto,\ Ponto)
+comment2.params=pontoA\ pontoB
+comment2.target=double\ cardinalX(Ponto,\ Ponto)
+comment3.params=pontoA\ pontoB
+comment3.target=double\ cardinalY(Ponto,\ Ponto)
+numComments=4

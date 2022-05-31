@@ -1,0 +1,1 @@
+ O git é um programa que pode ser instalado neste link para Windows, neste para Mac, ou então através do comando sudo apt-get install git para plataformas Linux/Debian, como o Ubuntu. Se você usa uma VM na nuvem, como o cloud9 ou koding, o git já estará disponível em sua linha de comando.
