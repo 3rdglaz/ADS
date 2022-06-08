@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Serif', serif;
+}
+body{
+    background-color: #f2f2f2;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    padding-bottom: 10vh;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.intro img{
+    max-height: 25vh;
+
+}
+figcaption{
+    text-align: center;
+}
+main h2,h3, p{
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    margin: 2vh;
+}
+main h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.confidencial{
+    color: red;
+}
+.censura {
+    transition:ease-in 0.8s;
+    color: black !important;
+    background-color: black;
+}
+header{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+header img{
+    max-height: 30vh;
+}
+section{
+    margin: 2vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    text-align: center;
+    width: 100%;
+}
