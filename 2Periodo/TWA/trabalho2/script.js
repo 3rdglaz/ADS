@@ -23,7 +23,15 @@ function teste() {
     };
 }
 
-function anomalia(params) {
-    
+function anomalia() {
+    var alfabeto       = 'ABCDEFGHIJKLMNOPQRSTUVWX';
+    for (let i = 0; i < "caio pereira".length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * 
+        alfabeto.length));
+    }
+    document.getElementById('assinatura').innerHTML = result
 }
+window.addEventListener('scroll',()=>{
+    // add evento de reconhecimento de fim de pagina pra rodar anomali
+})
 setTimeout(teste,2000);
