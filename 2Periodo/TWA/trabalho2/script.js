@@ -16,7 +16,7 @@
 
 // setTimeout(censura,4000)
 
-function teste() {
+function censura() {
     const censura = document.querySelectorAll('.confidencial');
     for(const i of censura){
         i.classList.add("censura");
@@ -24,14 +24,20 @@ function teste() {
 }
 
 function anomalia() {
-    var alfabeto       = 'ABCDEFGHIJKLMNOPQRSTUVWX';
+    var bizarro ='';
+    var alfabeto       = ' ȜȝȞȟȠȡȢȤȥȦȧȨȩȪȫȭȮȯȰȱȲȳȴȵȶȷȸȹȺȻȼȽȾȿɀɁɂɃɄɅɆɇɈɉɊɋɌɍɎɏɐɑɒɓɔɕɖɗɘəɚɛɜɝɞɟɠɡɢɣɤɥɦɧɨɩɪɫɬɭɮɯɰɱɲɳɴɵɶɷɸɹɺɻɼɽɾɿʀʁʂʃʄʅʆʇʈʉʊʋʌʍʎʏʐʑʒʓʔʕʖʗʘʙʚʛʜʝʞʟʠʡʢʣʤʥʦʧʨʩʪʫ';
     for (let i = 0; i < "caio pereira".length; i++) {
-        result += characters.charAt(Math.floor(Math.random() * 
+        bizarro += alfabeto.charAt(Math.floor(Math.random() * 
         alfabeto.length));
     }
-    document.getElementById('assinatura').innerHTML = result
+    document.getElementById('assinatura').innerHTML = bizarro;
 }
-window.addEventListener('scroll',()=>{
-    // add evento de reconhecimento de fim de pagina pra rodar anomali
-})
-setTimeout(teste,2000);
+
+window.onscroll = function() {
+    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+        setTimeout(anomalia,4000);
+        // console.log(anomalia());
+        // console.log('fim');
+    }
+};
+setTimeout(censura,2000);
