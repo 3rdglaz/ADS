@@ -17,12 +17,13 @@
 // setTimeout(censura,4000)
 
 function teste() {
-    
     const censura = document.querySelectorAll('.confidencial');
     for(const i of censura){
         i.classList.add("censura");
-        
     };
+}
 
+function anomalia(params) {
+    
 }
 setTimeout(teste,2000);

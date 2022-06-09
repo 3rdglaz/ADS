@@ -2,26 +2,107 @@
     margin: 0;
     font-family: 'Roboto Serif', serif;
 }
+/* @media min 800px {
+    
+} */
 body{
     background-color: #f2f2f2;
-    padding-left: 30vh;
+    /* padding-left: 30vh;
     padding-right: 30vh;
-    padding-bottom: 10vh;
+    padding-bottom: 10vh; */
+    
 }
-.intro{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+@media(max-width:600px){
+    main{
+        margin:0;
+        padding: 0;
+        display: grid;
+        /* justify-content: center; */
+        /* align-items: center; */
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'scp'
+        'categoria'
+        'procedimento'
+        'descricao';
+    }
+    .categoria{
+        grid-area: categoria;
+        display: grid;
+        justify-content: start; 
+        grid-template-columns: 1fr;
+        align-items:flex-start;
+        grid-template-areas: 
+        'cat-1'
+        'cat-2'
+        'cat-3';   
+    }
+    .cat-1{grid-area: cat-1;}
+    .cat-2{grid-area: cat-2;}
+    .cat-3{grid-area: cat-3;}
+    .scp, .cat-1,.cat-2,.cat-3{
+        text-align:center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .procedimento, .descricao{
+        text-align: justify;
+        padding: 0;
+    }
 }
-.intro img{
-    max-height: 25vh;
+@media(max-width:768px){
+    footer{
+        position:fixed;
+        bottom:0;
+        right:0;
+        left:0;
+        background-color: #f2f2f2;
+    }
+}
 
+main{
+    margin: 2vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+    '. scp .' 
+    '. categoria .'
+    '. procedimento .'
+    '. descricao .';
+}
+.scp{
+    grid-area: scp;
+    justify-self: center;
+}
+
+.categoria{
+    grid-area: categoria;
+    display: grid;
+    justify-content: start; 
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}    
+.procedimento{
+    grid-area: procedimento;
+}
+.descricao{
+    grid-area: descricao;
+}
+.categoria, .procedimento, .descricao{
+    padding: 4vh;
+    
+}
+ figure img{
+    display: block;
+    max-height: 25vh;
+    margin: auto;
 }
 figcaption{
     text-align: center;
-}
+} 
 main h2,h3, p{
-    /* padding-left: 20%;
-    padding-right: 20%; */
     margin: 2vh;
 }
 main h3{
@@ -32,7 +113,7 @@ main h3{
     color: red;
 }
 .censura {
-    transition:ease-in 0.8s;
+    transition:ease-in 1.8s;
     color: black !important;
     background-color: black;
 }
@@ -46,13 +127,13 @@ header{
 header img{
     max-height: 30vh;
 }
-section{
+/* section{
     margin: 2vh;
-}
+} */
 footer{
-    display: flex;
-    justify-content: center;
-    /* position: fixed; */
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
     text-align: center;
-    width: 100%;
 }
