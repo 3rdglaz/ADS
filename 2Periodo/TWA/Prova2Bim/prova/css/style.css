@@ -1,0 +1,148 @@
+/* Cores utilizadas
+#252525
+#fdf150
+#ffffff
+*/
+/* img {
+    max-width: 20px;
+} */
+@font-face {
+    font-family: "HKGrotesk";
+    src: url("../fonts/HKGrotesk-Black.otf");
+}
+
+* {
+    font-family: 'HKGrotesk', 'Times New Roman', Times, serif;
+
+}
+
+.logo {
+    grid-area: logo;
+    padding: 5vh;
+}
+
+.logo-noturno {
+    /* content: url("/2Periodo/TWA/Prova2Bim/prova/img/logo_white.svg"); */
+    content: url("../img/logo_white.svg");
+}
+
+.logo img {
+    max-width: 7vw;
+    min-width: 5vw;
+
+}
+
+.noturno {
+    grid-area: noturno;
+    text-align: end;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        '. logo noturno'
+        'banner banner banner'
+        'slide slide slide'
+        'footer footer footer';
+    justify-items: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.modo-noturno {
+    background-color: #252525;
+}
+
+.banner {
+    grid-area: banner;
+    background-color: #fdf150 !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        '. titulo .'
+        'subtitulo subtitulo subtitulo'
+        'banner-item1 banner-item2 banner-item3';
+    justify-items: center;
+    align-items: center;
+}
+
+.item {
+    background-color: #fdf150;
+    max-width: 90%;
+}
+
+.item p {
+    text-align: justify;
+    margin: 3vh;
+}
+
+.banner img {
+    max-width: 15vh;
+}
+
+#titulo {
+    grid-area: titulo;
+}
+
+#titulo h2 {
+    text-align: center;
+}
+
+#subtitulo {
+    grid-area: subtitulo;
+}
+
+#banner-item1 {
+    grid-area: banner-item1;
+}
+
+#banner-item2 {
+    grid-area: banner-item2;
+}
+
+#banner-item3 {
+    grid-area: banner-item3;
+}
+
+.item {
+    padding: 2vh;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide {
+    grid-area: slide;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'slide-item1 slide-item2 slide-item3 slide-item4 ';
+
+}
+
+.slide img {
+    max-width: 20vw;
+    max-height: 20vh;
+}
+
+.slide div {
+    padding: 5vh;
+
+}
+
+.slide-noturno {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #252525;
+    grid-area: footer;
+    min-width: 100%;
+    margin: 0;
+}
+
+footer p {
+    color: #ffffff;
+    padding: 1vh;
+    margin: 16px;
+}
